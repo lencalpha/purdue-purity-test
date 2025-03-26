@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purdue Purity Test Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Purdue Purity Test</h1>
+    <p>Your score is:<br> <strong><span id="score" style="color: red; font-size: 100px;"></span></strong></p>
+    <a href="index.html">Take the test again</a>
+  </div>
+
+  <script>
+    // Retrieve score from localStorage and display it
+    document.addEventListener('DOMContentLoaded', function () {
+        const score = localStorage.getItem('purityScore');
+        document.getElementById('score').textContent = score ? score : "N/A";
+    });
+  </script>
+</body>
+</html>

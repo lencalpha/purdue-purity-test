@@ -1,0 +1,38 @@
+body {
+    background-color: #FBEEC8;
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #C28E0E; /* Darker text */
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+button {
+    background-color: #C28E0E; /* Olive Green for buttons */
+    color: white;
+    border: none;
+    padding: 5px 11px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #556B2F; /* Darker Olive Green on hover */
+}
+
+.container {
+    text-align: center;
+    padding: 5px 20px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
